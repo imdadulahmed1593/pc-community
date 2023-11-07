@@ -30,6 +30,7 @@ model Server {
 
   profileId String @db.ObjectId
   profile Profile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  // on profile delete server will also be deleted
 
   members Member[]
   channels Channel[]

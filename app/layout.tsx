@@ -14,6 +14,9 @@ const font = Open_Sans({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Project Code Community',
   description: 'A Communication platform for project code community',
+  manifest: '/manifest.json',
+  icons: { apple: '/icon.png' },
+  themeColor: '#fff',
 };
 
 export default function RootLayout({
