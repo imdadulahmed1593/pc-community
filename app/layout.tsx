@@ -11,6 +11,7 @@ import { QueryProvider } from '@/components/providers/query-provider';
 
 const font = Open_Sans({ subsets: ['latin'] });
 
+// generating pwa
 export const metadata: Metadata = {
   title: 'Project Code Community',
   description: 'A Communication platform for project code community',
