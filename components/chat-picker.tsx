@@ -22,8 +22,7 @@ import {
 import { useState } from 'react';
 import { MessageDirection } from '@chatscope/chat-ui-kit-react/src/types/unions';
 
-// const API_KEY = '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';
-const API_KEY = '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';
+const API_KEY = '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';
 // "Explain things like you would to a 10 year old learning how to code."
 const systemMessage = {
   //  Explain things like you're talking to a software professional with 5 years of experience.
@@ -134,7 +133,6 @@ export const ChatPicker = () => {
                 }
               >
                 {messages.map((message, i) => {
-                  console.log(message);
                   return <Message key={i} model={message} />;
                 })}
               </MessageList>
