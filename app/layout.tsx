@@ -13,7 +13,7 @@ const font = Open_Sans({ subsets: ['latin'] });
 
 // generating pwa
 export const metadata: Metadata = {
-  title: 'Project Code Community',
+  title: 'DISCORDIA',
   description: 'A Communication platform for project code community',
   manifest: '/manifest.json',
   icons: { apple: '/icon.png' },
